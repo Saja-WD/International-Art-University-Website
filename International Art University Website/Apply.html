@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="html" href="htmlFiles/InternationalArtUniversityProject.html" />
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <!--<link rel="stylesheet" href="" />-->
+    <title>Apply</title>
+</head>
+<body>
+    <div class="container1">
+        <nav class="navbar">
+            <h1><a class="logo" href="InternationalArtUniversityProject.html">International Art University</a></h1> <!-- When you click the logo it transform you to the home page-->
+            <ul>
+                <li><a href="About.html">About</a></li>  <!--General Information-->
+                <li><a href="Payments.html">Payments</a></li>
+                <li><a href="Apply.html">Apply</a></li>  <!--Apply For Admission-->
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="applyform">
+            <form action="http://norton.open.ac.uk/reflect.php" method="post" name="form1">
+                <!-- Student Name -->
+                <p><b>Student Name:</b><input type="text" name="StudentName" /></p>
+
+
+                <!-- Write your grade-->
+                <p>Student Grade:<input type="text" name="StudentGrade" /></p>
+
+                <!-- Contact number-->
+                <p>Contact Number:<input type="text" name="ContactNumber" /></p>
+
+                <!-- E-mail -->
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+
+                <!-- Date of Birth-->
+                <br/><br/>
+                <label for="text">Date Of Borth:</label>
+                <input type="text" id="DOB" name="DOB">
+
+                <!--Select Gender--><br />
+                <p>
+                    Select Gender:
+                    <input type="radio" name="male" value="male" />Male
+                    <input type="radio" name="female" value="female" />Female
+                </p><br /><br />
+
+
+                <!-- Write a comment-->
+                <p>Comment description:</p>
+                <textarea name="comments" cols="50" rows="10"></textarea>
+
+                <!-- Submit and Reset Button-->
+                <br />
+                <p>
+                    <input type="submit" name="submit" value="Submit" />
+                    <input type="reset" name="reset" value="Reset" />
+                </p>
+            </form>
+        </div><!--apply form-->
+
+    </div>
+</body>
+</html>

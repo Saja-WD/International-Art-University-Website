@@ -1,0 +1,137 @@
+﻿body {
+    
+    background-image: linear-gradient(to bottom right,DarkOrange,yellow,skyblue);
+    height: 160vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Home Page*/
+.container1 {
+    text-align: center;
+    padding-inline-start: 0;
+    width: 80%;
+    height: 80%;
+    background: rgba(255,255,255,0.3);
+    border-radius:20px;
+    overflow:hidden;/*If any of the content was out side of the containar it will be hidden*/
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 23px 0;
+    
+}
+
+nav .logo {
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight:200;
+}
+
+    nav .logo:hover {
+        color: rgb(2, 221, 203);
+    }
+
+/* For the nav bar*/
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 6px;
+   
+    
+}
+
+/* this is for the text it self*/
+    nav ul li a {
+        font-size: 16px;
+        color: black;
+        text-decoration: none;
+        font-weight:500;
+    }
+
+        nav ul li a:hover {
+            color: rgb(2, 221, 203);
+        }
+
+.container1{
+    color: black;
+    text-align: left;
+}
+
+
+
+    /* imegs styling*/
+    .container1 .contentHome .imegs {
+       
+        width: 40%;
+        padding: 100px;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+        .container1 .contentHome .imegs .box {
+            width: 250px;
+            margin: 0 10px;
+            box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+            transition: 1.5s;
+        }
+
+            .container1 .contentHome .imegs .box:hover {
+                transform: scale(2.1);
+                z-index: 2;
+            }
+
+            .container1 .contentHome .imegs .box img {
+                height: 100px;
+                width: 100px;
+                display: block;
+                /*width: 100%;*/
+                border-radius: 5px;
+            }
+
+
+/* Home Page Vission & Mission*/
+    .container1 .contentHome {
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70%;
+        width: 80%;
+        padding:3px;
+        margin: auto;
+    }
+    .container1 .contentHome .text {
+        color:black;
+        text-align: left;
+        width: 40%;
+    }
+    .container1 .contentHome .text h2{
+        font-size:30px;
+        text-transform:uppercase;
+        font-weight:700;
+        letter-spacing:1px;
+    }
+    .container1 .contentHome .text p{
+        font-size:18px;
+        line-height:20px;
+        margin:10px 0;
+        letter-spacing:1px;
+        }
+
+    
+        
+
+
+

@@ -1,0 +1,68 @@
+﻿body {
+    height: 350vh;
+    width: 100%;
+}
+.container1 h3 {
+    color: darkred;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 25px;
+    padding: 2px 0;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+/* EmployeeInfo table*/
+.container1 .EmployeeInfo {
+    margin: 30px;
+    padding: 2px 0;
+}
+
+    .container1 .EmployeeInfo table {
+        border: 4px solid;
+        border-collapse: collapse;
+        width: 65%;
+        text-align: center;
+        color: black;
+    }
+
+    .container1 .EmployeeInfo table, th, td {
+        border: 2px solid;
+    }
+
+    /* IAU address table styling*/
+.container1 .address {
+    margin: 30px;
+    padding: 2px 0;
+}
+
+    .container1 .address table {
+        border: 4px solid;
+        border-collapse: collapse;
+        width: 50%;
+        text-align: center;
+        color: black;
+    }
+
+    .container1 .address table, th, td {
+        border: 2px solid;
+    }
+
+    /* Send a message styling*/
+.container1 .message {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Map Styling*/
+.container1 .map {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

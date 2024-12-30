@@ -1,0 +1,133 @@
+﻿/* About page styling*/
+body {
+    height: 580vh;
+    width: 100%;
+}
+
+.container1 {
+    margin: 10px;
+}
+
+.container1 .aboutContent h2 {
+    color: darkred;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 20px;
+    padding: 7px 0;
+}
+.container1 .aboutContent h3 {
+    color: darkred;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 25px;
+    padding: 2px 0;
+}
+/*First table*/
+.container1 .aboutContent .Art1 {
+    margin: 30px;
+    padding: 2px 0;
+}
+    .container1 .aboutContent .Art1 table {
+        border: 2px solid;
+        border-collapse: collapse;
+        width: 45%;
+        text-align: center;
+        color: black;
+    }
+.container1 .aboutContent table, th, td {
+    border: 1px solid;
+}
+/*Second table*/
+.container1 .aboutContent .Art2 {
+    margin: 30px;
+    padding: 2px 0;
+}
+
+    .container1 .aboutContent .Art2 table {
+        border: 2px solid;
+        border-collapse: collapse;
+        width: 45%;
+        text-align: center;
+        color: black;
+    }
+/*Third table*/
+.container1 .aboutContent .Photography1 {
+    margin: 30px;
+    padding: 2px 0;
+}
+
+    .container1 .aboutContent .Photography1 table {
+        border: 2px solid;
+        border-collapse: collapse;
+        width: 45%;
+        text-align: center;
+        color: black;
+    }
+/*Fourth Table*/
+.container1 .aboutContent .Photography2 {
+    margin: 30px;
+    padding: 2px 0;
+}
+
+    .container1 .aboutContent .Photography2 table {
+        border: 2px solid;
+        border-collapse: collapse;
+        width: 45%;
+        text-align: center;
+        color: black;
+    }
+
+    /*Academic Year Calendar table styling*/
+    .container1 .aboutContent .AcademicCalendar {
+        margin: 30px;
+        padding: 2px 0;
+    }
+
+        .container1 .aboutContent .AcademicCalendar table {
+            border: 2px solid;
+            border-collapse: collapse;
+            width: 95%;
+            text-align: center;
+            color: black;
+        }
+
+.container1 .aboutContent table, th, td {
+    border: 2px solid;
+}
+
+
+/*News and Events table styling*/
+.container1 .aboutContent .NewsEven {
+    margin: 30px;
+    padding: 2px 0;
+}
+
+    .container1 .aboutContent .NewsEven table {
+        border: 2px solid;
+        border-collapse: collapse;
+        width: 50%;
+        text-align: center;
+        color: black;
+    }
+
+.container1 .aboutContent table, th, td {
+    border: 1.5px solid;
+}
+
+    /*Announcements table styling*/
+    .container1 .aboutContent .Announcements {
+        margin: 30px;
+        padding: 2px 0;
+    }
+
+        .container1 .aboutContent .Announcements table {
+            border: 2px solid;
+            border-collapse: collapse;
+            width: 60%;
+            text-align: center;
+            color: black;
+        }
+
+    .container1 .aboutContent table, th, td {
+        border: 1.5px solid;
+    }
